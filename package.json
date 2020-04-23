@@ -3,7 +3,7 @@
   "version": "0.1.5",
   "description": "Signer app for Steem",
   "author": "Fabien Marino <fabien@bonustrack.co> (https://github.com/bonustrack)",
-  "homepage": "https://steemconnect.com",
+  "homepage": "https://github.com/steemit/steemconnect",
   "main": "electron-entry.js",
   "license": "MIT",
   "scripts": {
@@ -71,10 +71,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bonustrack/steemconnect.git"
+    "url": "https://github.com/steemit/steemconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/bonustrack/steemconnect/issues"
+    "url": "https://github.com/steemit/steemconnect/issues"
   },
   "browserslist": [
     "> 1%",

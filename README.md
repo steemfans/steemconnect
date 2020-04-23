@@ -21,3 +21,20 @@ npm run build
 # Build desktop apps
 npm run build-electron
 ```
+
+## Deploy Web Server by Docker
+
+``` bash
+# download Dockerfile
+curl https://raw.githubusercontent.com/steemit/steemconnect/master/Dockerfile
+
+# build docker image
+docker build --build-arg TAG=master -t steemconnect .
+
+# deploy image
+docker run -itd \
+  --name sc \
+  --restart always \
+  -p 8080:80
+  steemconnect
+```
