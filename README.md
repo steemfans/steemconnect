@@ -26,7 +26,7 @@ npm run build-electron
 
 ``` bash
 # download Dockerfile
-curl https://raw.githubusercontent.com/steemit/steemconnect/master/Dockerfile
+wget https://raw.githubusercontent.com/steemit/steemconnect/master/Dockerfile
 
 # build docker image
 docker build --build-arg TAG=master -t steemconnect .
