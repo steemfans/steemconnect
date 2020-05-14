@@ -35,6 +35,6 @@ docker build --build-arg TAG=master -t steemconnect .
 docker run -itd \
   --name sc \
   --restart always \
-  -p 8080:80
+  -p 8080:80 \
   steemconnect
 ```
