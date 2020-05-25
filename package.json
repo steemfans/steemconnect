@@ -1,9 +1,9 @@
 {
   "name": "steemconnect",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Signer app for Steem",
-  "author": "Fabien Marino <fabien@bonustrack.co> (https://github.com/bonustrack)",
-  "homepage": "https://github.com/steemit/steemconnect",
+  "author": "ETY001 <work@akawa.ink> (https://github.com/ety001)",
+  "homepage": "https://github.com/ety001/steemconnect",
   "main": "electron-entry.js",
   "license": "MIT",
   "scripts": {
@@ -67,14 +67,15 @@
     "Wiktor Tkaczyński <wiktor.tkaczynski@gmail.com> (https://github.com/Sekhmet)",
     "Johan Nordberg (https://github.com/jnordberg)",
     "Nico Wehmöller (https://github.com/wehmoen)",
-    "Mahdi Yari (https://github.com/mahdiyari)"
+    "Mahdi Yari (https://github.com/mahdiyari)",
+    "ETY001 (https://github.com/ety001)"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/steemit/steemconnect.git"
+    "url": "https://github.com/ety001/steemconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/steemit/steemconnect/issues"
+    "url": "https://github.com/ety001/steemconnect/issues"
   },
   "browserslist": [
     "> 1%",
