@@ -37,4 +37,17 @@ docker run -itd \
   --restart always \
   -p 8080:80 \
   steemconnect
+
+##############
+
+# or you can use image which I build.
+docker pull ety001/steemconnect:latest
+
+# deploy image
+docker run -itd \
+  --name sc \
+  --restart always \
+  -p 8080:80 \
+  ety001/steemconnect:latest
+
 ```
