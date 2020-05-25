@@ -1,6 +1,6 @@
 {
   "name": "steemconnect",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Signer app for Steem",
   "author": "ETY001 <work@akawa.ink> (https://github.com/ety001)",
   "homepage": "https://github.com/ety001/steemconnect",
