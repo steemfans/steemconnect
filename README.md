@@ -25,8 +25,10 @@ npm run build-electron
 ## Deploy Web Server by Docker
 
 ``` bash
-# download Dockerfile
-wget https://raw.githubusercontent.com/steemit/steemconnect/master/Dockerfile
+# clone
+git clone https://github.com/ety001/steemconnect.git
+
+cd steemconnect
 
 # build docker image
 docker build --build-arg TAG=master -t steemconnect .
