@@ -9,9 +9,9 @@ const state = {
   steemAddressPrefix: '',
   chainId: '',
   language: 'en',
-  timeout: '20',
+  timeout: '30',
   theme: 'white',
-  address: 'https://api.steemit.com',
+  address: 'https://api.steem.fans',
 };
 
 const mutations = {
