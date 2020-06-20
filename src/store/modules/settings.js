@@ -9,7 +9,7 @@ const state = {
   steemAddressPrefix: '',
   chainId: '',
   language: 'en',
-  timeout: '30',
+  timeout: '60',
   theme: 'white',
   address: 'https://api.steem.fans',
 };
