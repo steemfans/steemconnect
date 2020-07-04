@@ -1,9 +1,9 @@
 {
   "name": "steemconnect",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "Signer app for Steem",
   "author": "ETY001 <work@akawa.ink> (https://github.com/ety001)",
-  "homepage": "https://github.com/ety001/steemconnect",
+  "homepage": "https://github.com/steemfans/steemconnect",
   "main": "electron-entry.js",
   "license": "MIT",
   "scripts": {
@@ -72,10 +72,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ety001/steemconnect.git"
+    "url": "https://github.com/steemfans/steemconnect.git"
   },
   "bugs": {
-    "url": "https://github.com/ety001/steemconnect/issues"
+    "url": "https://github.com/steemfans/steemconnect/issues"
   },
   "browserslist": [
     "> 1%",
