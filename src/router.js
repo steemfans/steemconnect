@@ -21,6 +21,7 @@ const About = () => import(/* webpackChunkName: "about" */ '@/views/About.vue');
 const Apps = () => import(/* webpackChunkName: "apps" */ '@/views/Apps.vue');
 const Developers = () => import(/* webpackChunkName: "developers" */ '@/views/Developers.vue');
 const Error404 = () => import(/* webpachChunkName: "error-404" */ '@/views/404.vue');
+const BroadcastOp = () => import(/* webpachChunkName: "dev-tools" */ '@/views/DevTools/BroadcastOp.vue');
 
 Vue.use(Router);
 
@@ -165,6 +166,11 @@ export default new Router({
       path: '/developers',
       name: 'developers',
       component: Developers,
+    },
+    {
+      path: '/dev-tools/broadcast-op',
+      name: 'broadcast-op',
+      component: BroadcastOp,
     },
     {
       path: '*',

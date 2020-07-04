@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Signer app for Steem",
   "author": "ETY001 <work@akawa.ink> (https://github.com/ety001)",
-  "homepage": "https://github.com/steemfans/steemconnect",
+  "homepage": "https://auth.steem.fans",
   "main": "electron-entry.js",
   "license": "MIT",
   "scripts": {
