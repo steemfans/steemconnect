@@ -63,37 +63,16 @@
           </p>
         </div>
         <a
-          @click="selectSection('demo')"
+          @click="selectSection('dev-tools')"
           class="Box p-3 d-block border rounded-1 overflow-hidden mb-3"
         >
-          <h4 class="m-0">Demo</h4>
+          <h4 class="m-0">DevTools</h4>
         </a>
-        <div v-if="selectedSection === 'demo'" class="mb-4">
-          <p class="mt-2">Checkout SteemConnect demo with Vue.js</p>
-          <p><a href="https://demo.steemconnect.com" target="_blank" class="mr-2">Try demo</a></p>
+        <div v-if="selectedSection === 'dev-tools'" class="mb-4">
           <p>
-            <a
-              href="https://github.com/bonustrack/steemconnect.js/blob/master/docs/index.html"
-              target="_blank"
-            >
-              <span class="iconfont icon-mark-github" /> See on GitHub
-            </a>
-          </p>
-        </div>
-        <a
-          @click="selectSection('oauth2')"
-          class="Box p-3 d-block border rounded-1 overflow-hidden mb-3"
-        >
-          <h4 class="m-0">OAuth2</h4>
-        </a>
-        <div v-if="selectedSection === 'oauth2'" class="mb-4">
-          <p>
-            The first step in implementing OAuth2 is registering a developer application, and
-            retrieving your client ID and client secret. The URL for OAuth2 is as follows:
-          </p>
-          <p>
-            <b>Token URL</b><br />
-            https://api.steemconnect.com/api/oauth2/token
+            <router-link to="/dev-tools/broadcast-op" class="btn btn-large">
+              Broadcast Op Tool
+            </router-link>
           </p>
         </div>
         <a
@@ -113,11 +92,6 @@
           <p v-if="pkg.bugs">
             <a :href="pkg.bugs.url" target="_blank">
               <span class="iconfont icon-mark-github" /> Report a bug
-            </a>
-          </p>
-          <p>
-            <a href="https://discord.gg/v52akSX" target="_blank">
-              <span class="iconfont icon-discord" /> Join us on Discord
             </a>
           </p>
         </div>
