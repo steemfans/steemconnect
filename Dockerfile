@@ -11,7 +11,7 @@ RUN cd /app && \
 FROM nginx:latest
 WORKDIR /app
 EXPOSE 80
-COPY --from=0 /steemconnect/docker_config/nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=0 /steemconnect/www /app
+COPY --from=0 /app/docker_config/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=0 /app/www /app
 STOPSIGNAL SIGINT
 CMD ["nginx", "-g", "daemon off;"]
