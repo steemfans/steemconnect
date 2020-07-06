@@ -28,7 +28,7 @@
           </div>
         </div>-->
         <p>
-          With SteemConnect, you're always in control of your private keys: we neither store nor
+          With AuthSteem, you're always in control of your private keys: we neither store nor
           have access to them.
         </p>
       </div>

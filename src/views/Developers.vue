@@ -4,8 +4,8 @@
     <div class="p-4 after-header">
       <div class="container-sm mx-auto mb-4">
         <p class="mb-4">
-          You’ve found the SteemConnect developer documentation! This page dedicated to showing you
-          all the ways that you can use SteemConnect to make cool stuff.
+          You’ve found the AuthSteem developer documentation! This page dedicated to showing you
+          all the ways that you can use AuthSteem to make cool stuff.
         </p>
         <a
           @click="selectSection('new-app')"
@@ -16,7 +16,7 @@
         <div v-if="selectedSection === 'new-app'" class="mb-4">
           <div class="mb-3">
             <p>
-              To create a new app on SteemConnect you need a Steem account for it. If you don't have
+              To create a new app on AuthSteem you need a Steem account for it. If you don't have
               one yet you can create one on
               <a href="https://signup.steemit.com" target="_blank">signup.steemit.com</a>. Once you
               have a Steem account for your app, click on the button below, log in with your app
@@ -26,12 +26,6 @@
               Enable app
             </router-link>
           </div>
-          <p>
-            If you would like to use the OAuth 2 API for posting with SteemConnect server you need
-            to authorize the Steem account "steemconnect" to post on the behalf of your app account.
-            <router-link to="/authorize/steemconnect">Click here</router-link>
-            to do this and sign with your app account.
-          </p>
         </div>
         <a
           @click="selectSection('edit-app')"
