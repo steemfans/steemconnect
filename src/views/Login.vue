@@ -2,7 +2,7 @@
   <Center>
     <router-link to="/" class="d-inline-block my-2 no-decoration">
       <span class="logo iconfont icon-steemconnect" />
-      <h4 class="m-0">steemconnect</h4>
+      <h4 class="m-0">AuthSteem</h4>
     </router-link>
     <div class="width-full p-4 mb-2">
       <form @submit.prevent="submitForm" method="post" class="text-left">
