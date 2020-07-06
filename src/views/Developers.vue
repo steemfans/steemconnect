@@ -40,23 +40,6 @@
           </router-link>
         </div>
         <a
-          @click="selectSection('sdk')"
-          class="Box p-3 d-block border rounded-1 overflow-hidden mb-3"
-        >
-          <h4 class="m-0">SDK</h4>
-        </a>
-        <div v-if="selectedSection === 'sdk'" class="mb-4">
-          <p>
-            Get started integrating SteemConnect on your website with SteemConnect.js, the official
-            JavaScript SDK.
-          </p>
-          <p>
-            <a href="https://github.com/bonustrack/steemconnect.js" target="_blank"
-              ><span class="iconfont icon-mark-github" /> SteemConnect.js</a
-            >
-          </p>
-        </div>
-        <a
           @click="selectSection('dev-tools')"
           class="Box p-3 d-block border rounded-1 overflow-hidden mb-3"
         >
