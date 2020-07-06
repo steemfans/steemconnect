@@ -1,5 +1,5 @@
 {
-  "name": "steemconnect",
+  "name": "authsteem",
   "version": "0.2.0",
   "description": "Signer app for Steem",
   "author": "ETY001 <work@akawa.ink> (https://github.com/ety001)",
@@ -72,10 +72,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/steemfans/steemconnect.git"
+    "url": "https://github.com/steemfans/authsteem.git"
   },
   "bugs": {
-    "url": "https://github.com/steemfans/steemconnect/issues"
+    "url": "https://github.com/steemfans/authsteem/issues"
   },
   "browserslist": [
     "> 1%",
