@@ -1,8 +1,6 @@
-![CircleCI](https://img.shields.io/circleci/project/github/bonustrack/steemconnect.svg)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bonustrack/steemconnect/master/LICENSE)
-[![Discord](https://img.shields.io/discord/352140630769664009.svg?color=%236b80c4&label=discord)](https://discord.gg/NCZMVev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/steemfans/authsteem/master/LICENSE)
 
-# steemconnect
+# AuthSteem
 
 > Signer app for Steem
 
@@ -26,30 +24,30 @@ npm run build-electron
 
 ``` bash
 # clone
-git clone https://github.com/ety001/steemconnect.git
+git clone https://github.com/steemfans/authsteem.git
 
-cd steemconnect
+cd authsteem
 
 # build docker image
-docker build --build-arg TAG=master -t steemconnect .
+docker build --build-arg TAG=master -t authsteem .
 
 # deploy image
 docker run -itd \
-  --name sc \
+  --name authsteem \
   --restart always \
   -p 8080:80 \
-  steemconnect
+  authsteem
 
 ##############
 
 # or you can use image which I build.
-docker pull ety001/steemconnect:latest
+docker pull steemfans/authsteem:latest
 
 # deploy image
 docker run -itd \
-  --name sc \
+  --name authsteem \
   --restart always \
   -p 8080:80 \
-  ety001/steemconnect:latest
+  steemfans/authsteem:latest
 
 ```
